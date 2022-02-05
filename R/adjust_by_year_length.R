@@ -8,7 +8,7 @@
 #' adjust(data$Male,1905)
 
 adjust <- function(raw_data, year){
-  data(year_length)
+  #data(year_length)
   birthyear = year-seq(from=0,to=100)
   current <- c()
   current2 <- c()
